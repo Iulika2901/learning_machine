@@ -53,5 +53,18 @@ from bokeh.models import HoverTool
 from sklearn.datasets import load_iris
 iris = load_iris()
 iris.target
+X = iris.data
+Y = iris.target
+feature_names=iris.feature_names
+targe_names = iris.target_names
+feature_names
 type(X)
 X_train, X_test, Y_train, Y_test = train_test_split(X,Y, test_size=0.4)
+from sklearn.neighbors import KNeighborsClassifier
+knn = KNeighborsClassifier(n_neighbors=3)
+knn.fit(X_train, Y_train)
+Y_pred=knn.predict(X_test,)
+from sklearn import metrics
+print(metrics.accuracy_score(y_test, y_pred))
+from sklearn import metrics
+print(metrics.accuracy_score(Y_test, Y_pred))
