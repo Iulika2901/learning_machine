@@ -11,7 +11,9 @@
 
 <p>This repository contains a Python project for a iris clasificator and an object detector using  tensorflow, keras and imageai.</p>
 
-<img src="![image](https://github.com/user-attachments/assets/e8291fc0-ebc3-4b9e-b7f5-f0a200155435)8" alt="Calculator Image 1">
+
+<img src="https://github.com/user-attachments/assets/e8291fc0-ebc3-4b9e-b7f5-f0a200155435" alt="Example Image">
+
 
 
 <h2>Description</h2>
