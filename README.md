@@ -9,12 +9,12 @@
 
 <h1>Machine Learning Project: Iris Classification & Object Detection</h1>
 
-<p>This repository contains a Python project for a iris clasificator and an object detector using  tensorflow, keras and imageai.</p>
 
-
-<img src="https://github.com/user-attachments/assets/e8291fc0-ebc3-4b9e-b7f5-f0a200155435" alt="Example Image">
 
 <img src="https://github.com/user-attachments/assets/57a8d4e7-f3f7-4b2f-8b65-c787ecadcdab" alt="Example Image">
+
+<p>This repository contains a Python project for a iris clasificator and an object detector using  tensorflow, keras and imageai.</p>
+
 
 <h2>Description</h2>
 
