@@ -21,3 +21,14 @@ d['Kids'] =p
 d.to_csv('prediction.csv')
 reg = linear_model.LinearRegression()
 reg.fit(df[['Overall']],df.Age)
+import pickle
+with open('model_pickle','wb') as f:
+      pickle.dump(model, f)
+with open('model_pickle','rb')
+   mp = pickle.load(f)
+mp.predict(5000)
+from sklearn.externals import joblib
+joblib.dump(model, 'model_joblib') #save the mofel/ formulas to use later
+mj=joblib.load('model_joblib')  #use model
+
+
