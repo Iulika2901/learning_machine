@@ -17,7 +17,7 @@
 
 
 <h2>Description</h2>
-
+mean squared error: mse=1/n * sum(i=1, n) (yi-(mxi+b))^2
 <ul>
   <li><strong>Iris Flower Classification</strong> using the K-Nearest Neighbors (KNN) algorithm.</li>
   <li><strong>Object Detection in Images</strong> using a pre-trained deep learning model.</li>
